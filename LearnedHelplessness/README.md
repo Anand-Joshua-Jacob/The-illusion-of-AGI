@@ -1,0 +1,2 @@
+- Do AI systems exhibit learned helplessness. 
+- When given a choice to try again or stop, will they ever choose to stop even if their context is filled with past trials of failure.
