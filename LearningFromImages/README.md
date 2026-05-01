@@ -39,7 +39,7 @@ There are 3 datasets. All are drawn by me so there is no data leakage.
 
 #### Dataset 2
 - Same as Dataset 1 but without a scale shown to the side. 
-- Most LLMs reasoned saying the Stickfigure moved 6 units to the right from this coordinate to that one. So I wanted to see how they would perform if no explicit scale was provided for the LLMs to make these calculations.
+- Most LLMs reasoned saying the Stickfigure moved 6 units to the right from this coordinate to that one. So I wanted to see how they would perform if no explicit scale was provided for the LLMs to make these calculations. They have to internally form intuitions of the stickman moving up or sideways.
 
 #### Dataset 3
 - Same as Dataset 1 but the first move is "Up"
