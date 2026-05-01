@@ -24,7 +24,8 @@ Runtime: 12m 23s
 ### Observations: 
 task 1 is analyzed and understood correctly. The scale is always used as a reference.
 Sometimes it reasoned it out to come to the right conclusion. 
-<div style="max-height:200px; overflow-y:auto; border:1px solid #ccc; padding:10px;">
+<details>
+<summary>Click to see reasoning</summary>
 
 "reasoning": "Let me analyze each action:
 
@@ -119,7 +120,8 @@ If C is a jump that elevates us, and then A moves us right while elevated, the s
 
 I'll go with CA as the shortest sequence.",
 "sequence": "CA"
-</div>
+</details>
+
 
 task 2 
 
