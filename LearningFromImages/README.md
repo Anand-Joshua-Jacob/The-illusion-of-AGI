@@ -37,6 +37,7 @@ There are 3 datasets. All are drawn by me so there is no data leakage.
 - In the 1st image description, "Initial" and "Final" labels are provided to guide the model to understand the images, but in the later images, the model is expected to learn these conventions.
 - The labels and arrows are gradually stripped away in later task to find out upto what limit the LLM required guidance in understanding an Image
 Correct answer is "CA"
+![Sample image](database/task1/task1_1/1.jpg)
 
 #### Dataset 2
 - Same as Dataset 1 but without a scale shown to the side. 
