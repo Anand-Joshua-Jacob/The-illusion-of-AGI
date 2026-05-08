@@ -40,7 +40,7 @@ Correct answer is "CA"
 
 ![Sample image](database/task1/task1_1/1.jpg)
 
-<img src="database/task1/task1_1/1.jpg" width="500">
+<img src="database/task1/task1_1/1.jpg" alt="Sample Image" width="500">
 
 #### Dataset 2
 - Same as Dataset 1 but without a scale shown to the side. 
