@@ -24,33 +24,30 @@ learning process). In this benchmark we will be testing in-context learning. But
 - I want to add a benchmark in a place where AI is not able to perform well so that we can make improvements in that area moving forward.
 - In this benchmark we will be testing in-context learning of LLMs from images.
 
-# Visual Stickman Reasoning Benchmark
-
-This repository contains a set of Kaggle benchmarks for evaluating visual reasoning and convention learning in multimodal LLMs using simple stickman drawings.
-
-All images were drawn by me, so they should not appear in any model’s training data.
-
-<img src="database/task1/task1_1/4.jpg" alt="Sample Image" width="350">
-
----
 
 ## Datasets and Tasks
 
 There are 3 Kaggle datasets, each with an associated Kaggle task:
+Each image in the Datasets were drawn by me, so they should not appear in any model’s training data.
 
-1. [Dataset 1 – Task Jumping](https://www.kaggle.com/datasets/anandjoshuajacob/task-jumping)
+1. [Dataset 1 – Jumping Task](https://www.kaggle.com/datasets/anandjoshuajacob/task-jumping)
 2. [Dataset 2 – No Explicit Scale](https://www.kaggle.com/datasets/anandjoshuajacob/stickfigures-without-explicit-scale)
 3. [Dataset 3 – Relabelled Directions](https://www.kaggle.com/datasets/anandjoshuajacob/visual-learning-3)
 
-Each dataset has 5 subtasks (e.g., `task1_1` to `task1_5`), with the same underlying logic but different visual cues and difficulty.
+
 
 ---
 
 ## Core Task Setup (All Datasets)
 
+- Each dataset has 5 subtasks (e.g., `task1_1` to `task1_5`)
 - Each subtask has 4 images:
-  - 3 “example” images: movements to the right, left, and up.
-  - 1 “target” image: initial stickman on the left, final stickman on the right, with a red block in between.
+  - **3 example images** (options A, B, C): show basic movements.
+  - **1 target image** (image 4): shared across all subtasks in a dataset.
+  Target Image: 
+  <img src="database/task1/task1_1/4.jpg" alt="Sample Image" width="350">
+
+
 - Each image has 2 stickmen:
   - Grey stickman: initial position.
   - Black stickman: final position.
