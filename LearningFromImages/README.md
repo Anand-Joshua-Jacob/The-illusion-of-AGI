@@ -43,7 +43,7 @@ Each image in the Datasets were drawn by me, so they should not appear in any mo
 - Each dataset has 5 subtasks (e.g., `task1_1` to `task1_5`)
 - Each subtask has 4 images:
   - **3 example images** (options A, B, C): show basic movements.
-  - **1 target image** (image 4): shared across all subtasks in a dataset.
+  - **1 target image** (image 4): shared across all subtasks in a dataset.  
   Target Image: 
   <img src="database/task1/task1_1/4.jpg" alt="Sample Image" width="350">
 
