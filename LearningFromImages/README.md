@@ -113,6 +113,8 @@ Each image in the Datasets were drawn by me, so they should not appear in any mo
   - The LLM must:
     - Internally form approximate representations of vertical and lateral movements.
     - Compare these to the target image to determine which sequence recreates the target displacement.  
+
+    
  The **correct sequence** remains:
    - Jump, then move right → `"CA"`.
   ---
@@ -128,6 +130,8 @@ Each image in the Datasets were drawn by me, so they should not appear in any mo
   - Left and right are opposites, so it is relatively easy for an LLM to relate labels and arrows between left/right images.
   - This dataset tests whether the LLM can:
     - Transfer what it learns from an **“up”** image (jump) to **lateral** movement images and to the target image.  
+
+
 The **correct sequence** is:
   - Jump, then move right → `"AC"`.
 
