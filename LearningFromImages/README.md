@@ -24,6 +24,8 @@ learning process). In this benchmark we will be testing in-context learning. But
 - I want to add a benchmark in a place where AI is not able to perform well so that we can make improvements in that area moving forward.
 - In this benchmark we will be testing in-context learning of LLMs from images.
 
+This is benchmark test [learning ability](https://github.com/Anand-Joshua-Jacob/The-illusion-of-AGI/tree/main) of LLMs
+You can look at the chat logs [here](https://github.com/Anand-Joshua-Jacob/The-illusion-of-AGI/tree/main/LearningFromImages/results/html)
 
 ## Datasets and Tasks
 
