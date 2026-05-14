@@ -1,5 +1,5 @@
-# The-illusion-of-AGI
-- Experiments to test the limits of state-of-the-art AI systems
+# AGI-Genkai
+- Experiments to test the limits of state-of-the-art AI systems and map out their capabilities.
 - I think current AI systems can be trained to learn something, to know what area is knows and what it does not but to do them in-context is where they fail.
 - So how does this affect us? We can always train a model to be good at a certain task and use it for that particular task.
 - Where does this AI's lack of understanding affect us. Can all problems be solved by just big data analysis? 
